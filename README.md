@@ -20,7 +20,7 @@ You need [Claude Code](https://claude.com/claude-code), Python 3.10 or newer, an
 In Claude Code:
 
 ```
-/plugin marketplace add OWNER/job-agent
+/plugin marketplace add ryanhohnbaum/job-agent
 /plugin install job-agent@job-agent
 ```
 
