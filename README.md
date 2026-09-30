@@ -124,6 +124,10 @@ examples/       A fictional resume spec used by tests and by the setup skill
 
 `python scripts/jobagent.py --help` lists every command. Pull requests are welcome; keep the manual-apply boundary and truthful-resume rules intact.
 
+## Credits
+
+Created by [Ryan Hohnbaum](https://github.com/ryanhohnbaum).
+
 ## License
 
 MIT

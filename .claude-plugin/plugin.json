@@ -2,6 +2,18 @@
   "name": "job-agent",
   "version": "1.0.0",
   "description": "A job-search assistant for Claude Code. Interviews you once, then finds verified roles that match your criteria, tailors a truthful resume for each, and tracks every application. You always submit applications yourself.",
+  "author": {
+    "name": "Ryan Hohnbaum",
+    "url": "https://github.com/ryanhohnbaum"
+  },
+  "homepage": "https://github.com/ryanhohnbaum/job-agent",
+  "repository": "https://github.com/ryanhohnbaum/job-agent",
   "license": "MIT",
-  "keywords": ["job-search", "resume", "career", "applications", "tracker"]
+  "keywords": [
+    "job-search",
+    "resume",
+    "career",
+    "applications",
+    "tracker"
+  ]
 }

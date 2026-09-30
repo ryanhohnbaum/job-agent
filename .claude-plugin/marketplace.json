@@ -1,7 +1,8 @@
 {
   "name": "job-agent",
   "owner": {
-    "name": "job-agent contributors"
+    "name": "Ryan Hohnbaum",
+    "url": "https://github.com/ryanhohnbaum"
   },
   "plugins": [
     {
