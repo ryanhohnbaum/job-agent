@@ -1,0 +1,48 @@
+{
+  "name": "Jane Sample",
+  "headline": "Operations Leader | Process Improvement | Team Development",
+  "contact": "Austin, TX | 555.010.0199 | jane.sample@example.com | linkedin.com/in/janesample",
+  "lines": ["Authorized to work in the U.S. | Travel up to 25%"],
+  "skills": "Operations Strategy | Process Redesign | Vendor Management | Budgeting | Team Leadership | Analytics",
+  "sections": [
+    {
+      "heading": "Executive Profile",
+      "paragraphs": [
+        "Operations leader with 12 years of experience improving throughput and reducing cost across logistics and customer-facing teams. Known for turning messy processes into measurable, repeatable systems."
+      ]
+    },
+    {
+      "heading": "Professional Experience",
+      "jobs": [
+        {
+          "employer": "Example Logistics Co.",
+          "location": "Austin, TX",
+          "dates": "2019 - Present",
+          "title": "Director of Operations",
+          "bullets": [
+            "Led a 40-person operations team across three fulfillment sites, cutting average order cycle time by 18%.",
+            "Redesigned vendor onboarding, reducing onboarding time from 45 days to 20 days.",
+            "Owned a $6M annual operating budget and delivered 4% under plan for three consecutive years."
+          ]
+        },
+        {
+          "employer": "Sample Retail Group",
+          "location": "Dallas, TX",
+          "dates": "2013 - 2019",
+          "title": "Senior Operations Manager",
+          "bullets": [
+            "Introduced weekly performance reviews that raised on-time delivery from 87% to 96%.",
+            "Managed a team of 15 and built a promotion pipeline that filled four supervisor roles internally."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Education and Certifications",
+      "bullets": [
+        "B.S. Industrial Engineering, Example State University, 2012",
+        "Lean Six Sigma Green Belt, 2016"
+      ]
+    }
+  ]
+}

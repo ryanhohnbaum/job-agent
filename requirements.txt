@@ -1,0 +1,13 @@
+# Core (search, tailor, track)
+openpyxl>=3.1
+PyYAML>=6.0
+python-docx>=1.1
+pypdf>=4.0
+
+# Optional: save job postings as PDF evidence
+playwright>=1.45
+
+# Optional: Gmail evidence skill
+google-api-python-client>=2.0
+google-auth-httplib2>=0.2
+google-auth-oauthlib>=1.2

@@ -1,0 +1,13 @@
+{
+  "name": "job-agent",
+  "owner": {
+    "name": "job-agent contributors"
+  },
+  "plugins": [
+    {
+      "name": "job-agent",
+      "source": "./",
+      "description": "Job-search assistant: guided setup, verified role discovery, truthful resume tailoring, and an application tracker. You always submit applications yourself."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+# Personal data must never be committed. A JobAgent workspace lives outside this repo,
+# but these guards catch accidents if someone runs setup inside a clone.
+Config/
+Applications/
+Backups/
+Logs/
+Job_Search_Log*.xlsx
+credentials.json
+gmail_token.json
+gmail_*.json
+*.tmp
+~$*
+
+# Python
+__pycache__/
+*.pyc
+.venv/

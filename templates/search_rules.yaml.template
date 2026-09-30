@@ -1,0 +1,42 @@
+# JobAgent search criteria. The setup skill fills this in by interview. Edit anytime.
+
+selection:
+  minimum_fit_score: 8.0          # only roles at or above this get a tailored resume
+  typical_results_per_run: "3-8"  # a guide, never a quota. Zero is fine.
+
+target:
+  role_levels: []                 # e.g. [Director, Senior Manager, Principal]
+  titles_and_functions: []        # e.g. ["Product Marketing", "Customer Success Operations"]
+  adjacent_roles_ok: true         # allow roles whose actual work fits even if the title differs
+
+location:
+  home_market: REPLACE_ME         # e.g. "Austin, TX metro"
+  local_areas: []                 # cities/regions that count as commutable
+  remote_us: true
+  relocation_allowed: false
+  hybrid_ok_within_local_area: true
+
+travel:
+  max_percent: 25
+  undisclosed_value: "Cannot confirm"
+
+compensation:
+  minimum_target_usd: 0           # 0 = no filter
+  basis: base                     # base | total
+  do_not_infer_total_from_base: true
+  exceptional_fit_may_qualify_below_target: true
+
+industries:
+  preferred: []                   # ranked, most preferred first
+  open_to_others_if_strong_fit: true
+
+exclude:
+  companies: []
+  role_types: []                  # e.g. ["primarily hands-on software engineering", "sales quota carrying"]
+  keywords_in_title: []
+
+deal_breakers: []                 # anything else, in plain language
+
+verification:
+  require_official_employer_or_ats_page: true   # aggregators are for discovery only
+  allow_recruiter_direct_evidence: true

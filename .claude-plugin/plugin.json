@@ -1,0 +1,7 @@
+{
+  "name": "job-agent",
+  "version": "1.0.0",
+  "description": "A job-search assistant for Claude Code. Interviews you once, then finds verified roles that match your criteria, tailors a truthful resume for each, and tracks every application. You always submit applications yourself.",
+  "license": "MIT",
+  "keywords": ["job-search", "resume", "career", "applications", "tracker"]
+}

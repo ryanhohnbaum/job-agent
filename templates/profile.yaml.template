@@ -1,0 +1,28 @@
+# JobAgent candidate profile. The setup skill fills this in by interview.
+# Facts here are the boundary for what the agent may claim about you. Edit anytime.
+
+candidate:
+  name: REPLACE_ME
+  email: REPLACE_ME
+  phone: ""
+  location: REPLACE_ME            # "City, ST"
+  linkedin: ""
+  work_authorized_us: true
+  requires_sponsorship_now_or_future: false
+
+master_resume:
+  file: ""                        # e.g. Templates/Jane_Doe_Master.docx
+  required_length_pages: 2
+  font: Calibri
+
+# Things that must never be implied on a resume even if a posting asks for them.
+truth_boundary:
+  unsupported_claims_to_avoid: []
+  # Example: ["hands-on ML engineering", "people management of 50+ staff"]
+
+positioning:
+  one_line: ""                    # How you want to be described to employers.
+
+# Optional. Used only by the Gmail skill.
+gmail:
+  extra_addresses: []             # other addresses you send job email from
